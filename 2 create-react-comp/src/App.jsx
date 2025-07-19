@@ -1,13 +1,16 @@
-import button from "./button";
+import Button from "./Button"; 
 import Hello from "./Hello";
+import Random from "./Random";
 
-function app() {
+function App() {
   return <div>
-  <h1>
-    Hello World
-  </h1>
-  <Hello></Hello>
+    <h1>
+      This is my first react app
+    </h1>
+    <Hello />
+    <Random></Random><Random />
+    
   </div>
 }
 
-export default app;
+export default App;

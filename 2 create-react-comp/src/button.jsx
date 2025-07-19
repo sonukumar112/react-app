@@ -1,4 +1,4 @@
-function button () {
+function Button () {
   return <button>click me</button>
 }
 
